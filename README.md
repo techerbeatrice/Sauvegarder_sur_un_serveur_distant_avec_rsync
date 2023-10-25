@@ -15,4 +15,8 @@ vm server ssh
 ![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/da1e6968-52fc-475d-965b-038b5ecc98c4)
 ___
 
+connection de la vm cliente en ssh au vm serveur   
+
+![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/4a952c8d-8389-4daf-80cf-2b34eabf4bb6)
+
 
