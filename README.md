@@ -34,3 +34,25 @@ copier le certificat public **rsa.pub** dans la vm distante avec la commande **s
 
 ![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/cb401f82-7307-4974-bc84-cf0983ddef80)
 
+___
+
+sur les 2vm (la locale + la distante), avoir rsync
+Ubuntu 22.04 contient déjà le package rsync installé. Pour vérifier cela et connaître la version, utilisez la commande : **sudo rsync --version** sinon faire un **sudo apt install rsync**   
+
+![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/127e3e38-1f1c-4af2-a39b-b1203a71a734)
+
+__
+
+sur les 2 vm, créer le fichier **/etc/rsyncd.conf**  avec **sudo nano /etc/rsyncd.conf**    
+
+___
+
+sur les 2vm, copier **/lib/systemd/system/rsync.service** dans **/etc/systemd/system/rsync.service**   avec la commande **sudo cp /lib/systemd/system/rsync.service /etc/systemd/system/rsync.service**     
+
+et toujours sur les 2vm, démarrer maintenant le service rsync avec la commmande **sudo systemctl restart rsync**  
+
+![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/056eb685-a202-44fb-963a-7131b34a5643)
+
+___
+
+
