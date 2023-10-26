@@ -41,14 +41,8 @@ Ubuntu 22.04 contient déjà le package **rsync installé**. Pour vérifier cela
 
 ![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/127e3e38-1f1c-4af2-a39b-b1203a71a734)
 
-__
-
-sur les 2 vm, créer le fichier **/etc/rsyncd.conf**  avec **sudo nano /etc/rsyncd.conf**    
-
 ___
-
-sur les 2vm, copier **/lib/systemd/system/rsync.service** dans **/etc/systemd/system/rsync.service**   avec la commande **sudo cp /lib/systemd/system/rsync.service /etc/systemd/system/rsync.service**     
-
+   
 et toujours sur les 2vm, démarrer maintenant le service rsync avec la commmande **sudo systemctl restart rsync**  
 
 ![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/056eb685-a202-44fb-963a-7131b34a5643)
@@ -59,7 +53,7 @@ Créer un dossier avec des fichiers sur la vm locale
 
 et  
 
-Transférer des fichiers avec Rsync via SSH avec la commande : **rsync -a ~/Bureau/originedirectory beatrice@192.168.1.93:~/Bureau/destinationdirectory**   
+Transférer des fichiers à la vm distante avec Rsync via SSH avec la commande : **rsync -a ~/Bureau/originedirectory beatrice@192.168.1.93:~/Bureau/destinationdirectory**   
 
 ![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/ceacb3a0-bb3b-4c85-81bd-3d2f36d0d7df)
 
