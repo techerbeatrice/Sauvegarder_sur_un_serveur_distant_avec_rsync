@@ -8,9 +8,9 @@ ___
 
 ___
 
-vm server ssh  
+vm distante ssh  
 
-installer service ssh avec **sudo apt install openssh-server -y**   et configurer le ficher conf ssh **sudo nano /etc/ssh/sshd_config**  
+installer sur la vm distante le service ssh avec **sudo apt install openssh-server -y**   et configurer le ficher conf ssh **sudo nano /etc/ssh/sshd_config**  
 
 ![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/81527e6f-25a1-401e-8a49-2db6e60f5867)
 ![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/17689a75-742f-4551-b8f6-97cc6cc499f6)
@@ -18,8 +18,8 @@ installer service ssh avec **sudo apt install openssh-server -y**   et configure
 
 ___
 
-générer une paire de clés sur la vm cliente   
-connection à partir de la vm cliente en ssh au vm serveur   
+générer une paire de clés sur la vm locale   
+connection à partir de la vm locale en ssh à la vm distante    
 
 ![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/8a245534-7e45-46bd-ad4f-b7fda768a84a)
 
