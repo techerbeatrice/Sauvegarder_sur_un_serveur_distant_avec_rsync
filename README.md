@@ -55,4 +55,12 @@ et toujours sur les 2vm, démarrer maintenant le service rsync avec la commmande
 
 ___
 
+Créer un dossier avec des fichiers sur la vm locale  
+
+et  
+
+Transférer des fichiers avec Rsync via SSH avec la commande : **rsync -a ~/Bureau/originedirectory beatrice@192.168.1.93:~/Bureau/destinationdirectory**   
+
+![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/ceacb3a0-bb3b-4c85-81bd-3d2f36d0d7df)
+
 
