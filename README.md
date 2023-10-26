@@ -36,6 +36,8 @@ copier le certificat public **rsa.pub** dans la vm distante avec la commande **s
 
 ___
 
+Logout du ssh   
+
 sur les 2vm (la locale + la distante), avoir **rsync** d'installé      
 Ubuntu 22.04 contient déjà le package **rsync installé**. Pour vérifier cela et connaître la version, utilisez la commande : **sudo rsync --version** sinon faire un **sudo apt install rsync**   
 
