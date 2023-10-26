@@ -57,4 +57,5 @@ Transférer des fichiers à la vm distante avec Rsync via SSH avec la commande :
 
 ![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/ceacb3a0-bb3b-4c85-81bd-3d2f36d0d7df)
 
+![image](https://github.com/techerbeatrice/Sauvegarder_sur_un_serveur_distant_avec_rsync/assets/138071140/41495430-1592-4460-8104-844f04a7e5fd)
 
